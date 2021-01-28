@@ -1,0 +1,10 @@
+.banner {
+
+	&__info-description {
+		max-width: 160px;
+
+		@media all and (max-width: 990px) {
+			max-width: 100%;
+		}
+	}
+}

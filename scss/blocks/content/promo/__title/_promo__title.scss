@@ -1,0 +1,19 @@
+.promo {
+
+	&__title {
+		font-size: 48px;
+		font-weight: 500;
+		color: #fff;
+		margin-bottom: 20px;
+		max-width: 435px;
+
+		@media all and (max-width: 1200px) {
+			max-width: 100%;
+		}
+
+		@media all and (max-width: 768px) {
+			font-size: 30px;
+		}
+		
+	}
+}

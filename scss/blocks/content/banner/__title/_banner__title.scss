@@ -1,0 +1,15 @@
+.banner {
+
+	&__title {
+		font-size: 22px;
+		line-height: 1;
+		margin-bottom: 10px;
+
+		&--center {
+			
+			@media all and (max-width: 768px) {
+				text-align: center;
+			}
+		}
+	}
+}

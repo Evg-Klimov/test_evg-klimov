@@ -1,0 +1,22 @@
+.header {
+
+	&__inner {
+		display: flex;
+		align-items: center;
+		position: relative;
+		margin-bottom: 150px;
+
+		@media all and (max-width: 1200px) {
+			justify-content: space-around;
+			margin-bottom: 75px;
+		}
+
+		&::before {
+			position: absolute;
+			display: block;
+			content: url(../img/plus.svg);
+			top: 115px;
+    	left: -170px;
+		}
+	}
+}

@@ -1,0 +1,40 @@
+.promo {
+	
+	&__inner {
+		max-width: 640px;
+		width: 100%;
+		position: relative;
+
+		&::before {
+			position: absolute;
+			display: block;
+			content: url(../img/ellipse.svg);
+			right: 0;
+			top: -90px;
+
+			@media all and (max-width: 1200px) {
+				display: none;
+			}
+		}
+
+		&::after {
+			position: absolute;
+			content: url(../img/plus-mini.svg);
+			right: 0;
+			top: 90px;
+			display: block;
+			width: 8px;
+			height: 8px;
+			z-index: 20;
+
+			@media all and (max-width: 1200px) {
+				display: none;
+			}
+		}
+
+		@media all and (max-width: 1200px) {
+			margin-bottom: 90px;
+			text-align: center;
+		}
+	}
+}

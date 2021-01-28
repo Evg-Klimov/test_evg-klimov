@@ -1,0 +1,12 @@
+.contacts {
+
+	&__messenger {
+		margin-left: 65px;
+		padding: 3px 0 3px 35px;
+		background: url(../img/whatsapp.svg) no-repeat left center;
+
+		@media all and (max-width: 1200px) {
+			margin-left: 35px;
+		}
+	}
+}

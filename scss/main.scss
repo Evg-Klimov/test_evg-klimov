@@ -1,0 +1,64 @@
+@import './fonts';
+@import './base-style';
+
+// blocks
+@import './blocks/wrapper/wrapper';
+
+// header // 
+@import './blocks/header/header__inner';
+
+// header logo
+@import './blocks/header/logo/logo__inner';
+
+// header nav
+@import './blocks/header/nav-menu/nav-menu__inner';
+@import './blocks/header/nav-menu/__item/nav-menu__item';
+@import './blocks/header/nav-menu/__link/nav-menu__link';
+@import './blocks/header/nav-menu/__phone/nav-menu__phone';
+
+// header contacts
+@import './blocks/header/contacts/contacts__inner';
+@import './blocks/header/contacts/__message/contacts__message';
+@import './blocks/header/contacts/__messenger/contacts__messenger';
+@import './blocks/header/contacts/__number/contacts__number';
+@import './blocks/header/contacts/__phone/contacts__phone';
+
+// response button
+@import './blocks/header/respons-btn/__line/_respons-btn__line';
+
+// components 
+@import './blocks/components/btn';
+@import './blocks/components/circle';
+
+
+// content //
+@import './blocks/content/content__inner';
+
+// promo
+@import './blocks/content/promo/__call/promo__call';
+@import './blocks/content/promo/__description/promo__description';
+@import './blocks/content/promo/__form/promo__form';
+@import './blocks/content/promo/__text/promo__text';
+@import './blocks/content/promo/__title/promo__title';
+@import './blocks/content/promo/__title/--light-font/promo__title--light-font';
+@import './blocks/content/promo/promo__inner';
+@import './blocks/content/promo/form-call/__btn/form-call__btn';
+@import './blocks/content/promo/form-call/__number/form-call__number';
+
+
+// banner 
+@import './blocks/content/banner/banner__inner';
+@import './blocks/content/banner/__advantages/banner__advantages';
+@import './blocks/content/banner/__block-img/banner__block-img';
+@import './blocks/content/banner/__info/-description/banner__info-description';
+@import './blocks/content/banner/__info/-horizontal/banner__info-horizontal';
+@import './blocks/content/banner/__info/-statistics/banner__info-statistics';
+@import './blocks/content/banner/__info/-vertical/banner__info-vertical';
+@import './blocks/content/banner/__info/banner__info';
+@import './blocks/content/banner/__statistics-description/banner__statistics-description';
+@import './blocks/content/banner/__statistics-title/banner__statistics-title';
+@import './blocks/content/banner/__statistics-img/banner__statistics-img';
+@import './blocks/content/banner/__text/banner__text';
+@import './blocks/content/banner/__title/banner__title';
+@import './blocks/content/banner/banner__inner';
+

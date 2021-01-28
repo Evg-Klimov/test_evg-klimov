@@ -1,0 +1,15 @@
+.respons-btn {
+	display: none;
+
+	@media all and (max-width: 1200px) {
+		display: block;
+	}
+
+	&__line {
+		width: 25px;
+		height: 3px;
+		background-color: #fff;
+		margin: 5px;
+	}
+}
+

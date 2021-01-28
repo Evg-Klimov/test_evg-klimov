@@ -1,0 +1,25 @@
+.banner {
+
+	&__block-img {
+		position: relative;
+		height: 598px;
+		background: #F86161;
+		border-radius: 59px;	
+
+		@media all and (max-width: 990px) {
+			margin-bottom: 30px;
+		}
+
+		@media all and (max-width: 768px) {
+			overflow: hidden;
+		}
+
+		&::after {
+			position: absolute;
+			content: url(../img/triangle.png);
+			display: block;
+			bottom: 35px;
+			left: -35px;
+		}
+	}
+}

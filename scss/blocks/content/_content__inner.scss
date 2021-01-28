@@ -1,0 +1,13 @@
+.content {
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		@media all and (max-width: 1200px) {
+			flex-direction: column;
+		}
+	}
+}
+

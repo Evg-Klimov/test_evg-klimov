@@ -1,0 +1,27 @@
+.banner {
+
+	&__info-horizontal {
+		width: 288px;
+		height: 99px;
+		display: flex;
+		justify-content: space-around;
+    padding: 20px;
+		position: absolute;
+		top: 30%;
+		left: 250px;
+
+		@media all and (max-width: 990px) {
+			width: 100%;
+			position: relative;
+			top: 0;
+			left: 0;
+			margin-bottom: 30px;
+		}
+
+		@media all and (max-width: 768px) {
+			flex-direction: column;
+			height: 185px;
+			align-items: center;
+		}
+	}
+}

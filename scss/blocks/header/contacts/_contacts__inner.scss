@@ -1,0 +1,12 @@
+.contacts {
+
+	&__inner {
+		display: flex;
+		align-items: center;
+		margin-left: auto;
+
+		@media all and (max-width: 1200px) {
+			display: none;
+		}
+	}
+}

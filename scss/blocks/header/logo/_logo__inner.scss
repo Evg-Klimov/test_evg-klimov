@@ -1,0 +1,18 @@
+.logo {
+
+	&__inner {
+		position: absolute;
+		right: 103%;
+
+		@media all and (max-width: 1400px) {
+			right: 100%;
+		}
+		@media all and (max-width: 1300px) {
+			position: relative;
+			right: 10px;
+		}
+		@media all and (max-width: 1200px) {
+			right: 0;
+		}
+	}
+}
